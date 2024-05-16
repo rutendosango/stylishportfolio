@@ -1,0 +1,596 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*CSS RESET END*/
+/*variables*/
+:root{
+    --black:rgba(36,35,35,0.9);
+    --blackbutton:rgb(36,35,35);
+    --h4:rgb(221,144,0);
+    --blue:rgb(53,129,159);
+    --white:rgb(255,255,255)
+}
+
+/*banner*/
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url(../images/yellow-background-pencil-designer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+
+#banner h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: 20px;
+    padding-top: 200px;
+    font-family: bold;
+}
+
+#banner p {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin: bottom 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#button1 {
+    background-color: rgb(23, 168, 168);
+    margin-top: 20px;
+    padding: 18px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+    font-weight: bold;
+
+}
+
+#button1:hover{
+    background-color: rgb(168, 69, 23);
+}
+
+/*----end of banner-----*/
+
+
+/*------about----*/
+#about {
+    height: 40vh;
+    text-align: center;
+}
+
+#about h1 {
+    margin-bottom: 10px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: bold;
+}
+
+#about p {
+    color: rgba(117, 97, 97, 0.733);
+    font-size: 15px;
+    font-family: regular;
+
+}
+
+#button2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+#button2:hover{
+    background-color: rgb(168, 69, 23);
+}
+
+/*----end of about---*/
+
+/*----services----*/
+ #inner {
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgb(23, 168, 168);
+    height: 60vh;
+    color: var(--white);
+}
+
+#inner1 {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+#inner1 i {
+    background-color: white;
+    clip-path: circle(50%);
+    width: 130px;
+    height: 100px;
+    padding-top: 30px;
+    
+}
+
+#inner #services-heading {
+    font-family: bold;
+    font-size: 15px;
+    color: var(--h4);
+    color: rgb(221,144,0);
+}
+
+#inner h3 {
+    font-family: bold;
+    color: white;
+    font-family: bold;
+}
+
+#inner h2 {
+    padding-top: 13px;
+    font-family: bold;
+    font-size: 30px;
+    color: white;
+    font-family: bold;
+
+}
+
+#inner p {
+    font-family: regular;
+    width: 110%;
+    margin: 2%;
+    color: white;
+    font-family: regular;
+}
+
+/* END OF SERVICES */
+
+
+
+
+
+#next-web{
+    height: 100vh;
+    text-align: center;
+    background-image:url(../images/scissors2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:rgb(0, 0, 0) ;
+    
+}
+
+
+#next-web h1{
+    font-size:40px ;
+    color: rgb(0, 0, 0);
+    margin-bottom:10px ;
+    padding-top: 80px;
+    font-family: bold;
+    width: 500px;
+    margin-left: 460px;
+}
+
+#button3{
+    background-color: rgb(23, 168, 168);
+    font-size: 10px;
+    margin-top:20px ;
+    padding:18px ;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    color: white;
+}
+
+#button3:hover{
+    background-color: rgb(168, 69, 23);
+}
+
+/*portfolio*/
+#portfolio{
+    height:90vh ;
+    text-align: center;
+    font-family: bold;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+}
+#portfolio h4{
+    color: rgb(221, 144, 0);
+    font-size: 20px;
+    font-family: regular;
+}
+#portfolio h1{
+    color: rgb(36,35, 35, 0.9);
+    font-size: 30px;
+    font-family: bold;
+}
+#portfolio .content{
+    display: flex;
+    justify-content:center ;
+}
+#content-inner1{
+    background-image: url(../images/envelopes.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+#content-inner1:hover{
+    transform: scale(1.3);
+    transition: 0.3s;} 
+#content-inner1 p{
+    margin-top: 20px;
+    opacity: 0;
+    font-size: 15px;
+}
+#content-inner1 h1{
+    margin-top: 140px;
+    opacity: 0;
+    font-size: 25px;
+}
+#content-inner1:hover p{
+    opacity: 1;
+}
+#content-inner1:hover h1{
+    opacity: 1;
+}
+
+
+
+.content-inner2{
+    background-image: url(../images/pencil.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+    cursor: pointer;
+}
+.content-inner2:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.content-inner2 h1{
+    margin-top: 140px;
+    opacity: 0;
+    font-size: 25px;
+}
+.content-inner2 p{
+    margin-top: 20px;
+    opacity: 0;
+    font-size: 15px;
+}
+.content-inner2:hover h1{
+opacity: 1;
+}
+
+.content-inner2:hover p{
+    opacity: 1;
+    }
+
+#content-inner3{
+    background-image: url(../images/strawberry.PNG);
+    height: 40vh;
+    width: 30%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#content-inner3:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+#content-inner3 p{
+    
+    margin-top: 20px;
+    opacity: 0;
+    font-size: 15px;
+}
+#content-inner3 h1{
+    opacity: 0;
+    margin-top: 140px;
+    font-size: 25px;
+}
+
+#content-inner3:hover p{
+    opacity: 1;
+    }
+    #content-inner3:hover h1{
+        
+        opacity: 1;
+    
+        }
+
+
+#content-inner4{
+    background-image: url(../images/scissors2.jpg);
+    height: 40vh;
+    width: 30%;
+    background-size:cover ;
+    cursor: pointer;
+}
+#content-inner4:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+#content-inner4 p{
+    margin-top: 20px;
+    opacity: 0;
+    font-size: 15px;
+}
+#content-inner4 h1{
+    margin-top:140px ;
+    opacity: 0;
+    font-size: 25px; 
+     
+}
+    
+#content-inner4:hover h1{
+    opacity: 1;
+    }
+    #content-inner4:hover p{
+        opacity: 1;
+        }
+
+#portfolio .content #content-inner img{
+    width: 500px;
+    padding: none;
+    border: 2px;
+}
+#portfolio .content h1{
+    color: rgb(255, 255, 255);
+}
+/*portfolio*/
+
+/*connect*/
+#connect{
+    height: 30vh;
+    background-color:rgb(21, 129, 159) ;
+    text-align: center;
+   padding-top: 80px;
+margin-top:160px ;
+}
+
+.connect-inner p{
+    color: rgb(255, 255, 255);
+    font-size:20px ;
+    font-family: regular;
+    margin-bottom: 40px;
+}
+
+.connect-1{
+    width: 20vh;
+    color:rgb(0, 0, 0) ;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.connect-1:hover{
+    background-color: rgb(168, 69, 23);
+}
+.connect-2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+
+.connect-2:hover{
+    background-color: rgb(168, 69, 23);
+}
+
+/*map*/
+.map{
+    padding-top: 50%;
+    position: relative;
+}
+.map iframe{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/*end of map*/
+
+/*end*/
+.end{
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.end .copyright p{
+    margin-top: 50px;
+    font-size: 10px;
+}
+.end .links{
+    justify-content: space-between;
+}
+.copyright{
+    color: rgb(102, 98, 98);
+    font-size: 25px;
+}
+
+
+
+/*media queries*/
+
+/*ipad mini*/
+
+/*hero*/
+@media (max-width:768px) {           
+ .hero{ height: 50vh !important;
+  width:240vh ;  
+}
+#banner h1{
+    font-size: 30px;
+}
+#banner p{
+    font-size: 20px;
+}
+/*end of hero*/
+
+/*about*/
+#about{
+    height: 22vh;
+    width: 30vh;
+}
+#about h1{
+    font-size: 20px;
+    margin-left: 300%;
+    width: 550px;
+    
+    }
+    #about p{
+        font-size:10px ;
+        margin-left: 300% ;
+        width: 570px;
+    }
+    #button2{
+        margin-top: 50px;
+        font-size:7px ;
+        border-radius: 2px;
+        margin-left: 360%;
+    }
+/*-----end of about-----*/
+
+/*-----services-------*/
+#services{
+    height: 70vh;
+    width: 320%;
+}
+/*--next web----*/
+#next-web{
+    height: 40vh;
+ width: 320%;   
+}
+#next-web h1{
+    margin-left:40%;
+}
+#button3{
+margin-top: 70px;
+margin-right: -5%;
+}
+
+/*---portfoio*/
+#portfolio{
+    height: 80vh;
+    width: 240vh;
+}
+
+
+/*connect*/
+#connect{
+    height: 15vh;
+    width: 240vh;
+    background-color:rgb(21, 129, 159) ;
+    text-align: center;
+   padding-top: 80px;
+margin-top:120px ;
+}
+
+.connect-inner p{
+    color: rgb(255, 255, 255);
+    font-size:20px ;
+    font-family: regular;
+    margin-bottom: 40px;
+}
+
+.connect-1{
+    width: 20vh;
+    color:rgb(0, 0, 0) ;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.connect-1:hover{
+    background-color: rgb(168, 69, 23);
+}
+.connect-2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+
+.connect-2:hover{
+    background-color: rgb(168, 69, 23);
+}
+/*map*/
+.map{
+    padding-top: 50%;
+    position: relative;
+}
+.map iframe{
+    height: 100%;
+    width: 320%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+/*end of map*/
+
+/*end*/
+.end{
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.end .copyright p{
+    margin-top: 130px;
+    font-size: 50px;
+    margin-left: 140%;
+    width: 580px;
+}
+.end .links{
+    justify-content: space-between;
+}
+.copyright{
+    color: rgb(102, 98, 98);
+    font-size: 25px;
+    
+}
+}
